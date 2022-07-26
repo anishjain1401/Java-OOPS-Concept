@@ -72,4 +72,32 @@ TYPES OF INHERITANCE
 				multiple inheritance is not supported in java.
 5) HYBRID : class D --> class B & class C --> class A
 
-# Polymorphism in Progress..
+
+# Polymorphism
+
+---> polymorphism as the word says "poly means == many" and "morph means == forms" so we can tell having one name but multiple forms
+
+	We have two concepts Method Overloading and Method Overriding in Polymorphism
+
+1) Taking real technical example as "abs(int)", "abs(long)", "abs(float)"
+having same name abs but different arguments is concept of polymorphism including concept of Method overloading.
+2) If we have same method but multiple implemantation is know as method overriding,
+
+Two Type of Polymorphism
+1) static/compile time/early binding --> its two type include 1)Overloading 2)Method Hiding
+2) dynamic/run time/late binding --> it includes overriding
+
+# Method Overloading
+
+---> two methods are said to be overloaded if and only if both methods have same name but different type of argument
+
+1) The responsibility on complier is based on reference type and method argument, so it is called Compile Time Polymorphism.
+2) In overloading child class argument will get more priority than parent class argument.
+
+# Method Overriding
+
+---> in overriding method name and argument must be same that is method signature must be same.
+
+1) If child is not satisfied with the requirements of parent class then child can redefine that method in child class.
+2) Overriding is considered as runtime polymorphism.
+3) we can't override parent class final method in child class.
